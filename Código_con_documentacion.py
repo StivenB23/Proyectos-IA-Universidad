@@ -127,7 +127,7 @@ if __name__ == "__main__":
     # Definimos el problema
     grafo_mio = obtener_grafo_mio()
     estacion_inicio = 'Paso_del_Comercio'
-    estacion_destino = 'Alamos' # Estación más cercana a Chipichape
+    estacion_destino = 'Manzana_del_Saber' # Estación más cercana a Chipichape
 
     # Ejecutamos el algoritmo de búsqueda
     ruta_encontrada, costo_total = busqueda_costo_uniforme(grafo_mio, estacion_inicio, estacion_destino)
